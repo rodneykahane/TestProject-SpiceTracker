@@ -55,10 +55,10 @@
         <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="276dp"
+            android:layout_width="212dp"
             android:layout_height="58dp"
             android:progress="50"
-            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteX="80dp"
             tools:layout_editor_absoluteY="78dp" />
 
         <ProgressBar
@@ -78,6 +78,22 @@
             android:progress="25"
             tools:layout_editor_absoluteX="48dp"
             tools:layout_editor_absoluteY="231dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_input_add"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="78dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_input_add"
+            tools:layout_editor_absoluteX="292dp"
+            tools:layout_editor_absoluteY="78dp" />
     </android.support.constraint.ConstraintLayout>
 
 </android.support.constraint.ConstraintLayout>
