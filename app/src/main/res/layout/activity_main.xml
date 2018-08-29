@@ -83,7 +83,7 @@
             android:id="@+id/imageButton"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            app:srcCompat="@android:drawable/ic_input_add"
+            app:srcCompat="@drawable/ic_input_sub"
             tools:layout_editor_absoluteX="136dp"
             tools:layout_editor_absoluteY="37dp" />
 
